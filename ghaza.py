@@ -93,9 +93,8 @@ def countdown(t):
         remaining_time = (until - datetime.datetime.now()).total_seconds()
         if remaining_time > 1:
             stdout.flush()
-            print()
-            stdout.write(f"\r{Fore.BLUE}[*]{Fore.RED} {remaining_time:.2f} {Fore.BLUE} Sec left{' ' * 26}")
-            stdout.flush()
+            stdout.write(f"\r{Fore.RED}[*]{Fore.LIGHTBLUE_EX} {remaining_time:.2f} {Fore.BLUE} Sec left{' ' * 26}")
+            print(f"\r{Fore.WHITE}[*]{Fore.LIGHTCYAN_EX}Sec left: {remaining_time:.2f} {Fore.LIGHTCYAN_EX}" +(url)+ "
             print(f"\r{Fore.RED}[*] {Fore.BLUE}Target acquired: "+str(url)+"{Fore.CYAN}: "+(port)+"")
             
         else:
