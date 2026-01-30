@@ -52,30 +52,9 @@ os.system("clear")
 print("")
 def display_header():
     header_lines = [
-f"{Fore.BLACK}{Fore.BLUE}╔═══════════════════════════════════════════════════════════════════════╗",                                                                        
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.GREEN}                         .-----,        .---------------               {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.GREEN}                        /       \  __  /    ----------                 {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.GREEN}                       / /       \(  )/    --------                    {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.GREEN}                      //////     . \/ -   ------                       {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.GREEN}                     //// / //   :    : -----                          {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.GREEN}                    // /   /     '`   ,-----                           {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.GREEN}                   // /  //    / //..\\\                                {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.GREEN}                  //          / //,..,\\\                               {Fore.BLUE}║ ",         
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.GREEN}                                                                       {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.GREEN}                            ====UU====UU====                           {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.GREEN}{Fore.WHITE}       ╔═════════╗{Fore.GREEN}               //||\\{Fore.YELLOW}{Fore.WHITE}              ╔═════════╗        {Fore.BLUE}║ ",     
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.YELLOW}       ██████████{Fore.WHITE}╝{Fore.GREEN}             ////||\\\\\{Fore.YELLOW}            ██████████{Fore.WHITE}║        {Fore.BLUE}║ ",     
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.YELLOW}       ██{Fore.WHITE}║             {Fore.GREEN}          ''``{Fore.YELLOW}                   ██{Fore.WHITE}║            {Fore.BLUE}║ ", 
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.YELLOW}       ██{Fore.WHITE}║                      ╔═══════╗{Fore.YELLOW}               ██{Fore.WHITE}║            {Fore.BLUE}║ ",         
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.YELLOW}       ██{Fore.WHITE}║{Fore.YELLOW}                      ████████{Fore.WHITE}╚╗{Fore.YELLOW}              ██{Fore.WHITE}║            {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.YELLOW}       ██{Fore.WHITE}║{Fore.YELLOW}                     ██{Fore.WHITE}║{Fore.YELLOW}      ██{Fore.WHITE}║{Fore.YELLOW}             ██{Fore.WHITE}║            {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.YELLOW}       ██{Fore.WHITE}║{Fore.YELLOW}                     ██{Fore.WHITE}║{Fore.YELLOW}      ██{Fore.WHITE}║{Fore.YELLOW}             ██{Fore.WHITE}║            {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.YELLOW}       ██{Fore.WHITE}╚═══════╗{Fore.YELLOW}             ██{Fore.WHITE}║{Fore.YELLOW}      ██{Fore.WHITE}║{Fore.YELLOW}             ██{Fore.WHITE}║            {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.YELLOW}       ██████████{Fore.WHITE}╝{Fore.YELLOW}             ██{Fore.WHITE}╚══════{Fore.YELLOW}██{Fore.WHITE}║{Fore.YELLOW}             ██{Fore.WHITE}╝            {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.YELLOW}                               ███████████║                            {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.YELLOW}                               ██{Fore.WHITE}║{Fore.YELLOW}      ██{Fore.WHITE}║                            {Fore.BLUE}║ ",
-f"{Fore.BLACK}{Fore.BLUE}║{Fore.YELLOW}                               ██{Fore.WHITE}╝{Fore.YELLOW}      ██{Fore.WHITE}╝                            {Fore.BLUE}║ ",                                                                         
-f"{Fore.BLACK}{Fore.BLUE}╚═══════════════════════════════════════════════════════════════════════╝ ",
+██╔════════╗
+        ╚═════╝║
+
     ]
     for line in header_lines:
         print(line)
