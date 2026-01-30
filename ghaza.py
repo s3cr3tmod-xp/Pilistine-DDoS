@@ -96,7 +96,6 @@ def countdown(t):
             stdout.write(f"\r{Fore.BLUE}[*]{Fore.RED} {remaining_time:.2f} {Fore.BLUE} Sec left{' ' * 26}")
             print(f"\r{Fore.RED}[*] {Fore.BLUE}Target acquired: {target['host']}{Fore.CYAN}({target['scheme']}://{target['host']}:{target['port']}{target['uri']} Sec {remaining_time:.2f}")
             
-    return target
         else:
             stdout.flush()
             stdout.write(f"\r{Fore.RED}••⟩  {Fore.YELLOW}C A T {Fore.CYAN} Attack has been completed|\n")
