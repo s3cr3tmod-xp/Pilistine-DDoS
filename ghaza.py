@@ -95,7 +95,7 @@ def countdown(t):
             stdout.flush()
             print()
             stdout.write(f"\r{Fore.RED}[*]{Fore.LIGHTBLUE_EX} {remaining_time:.2f} {Fore.BLUE} Sec left{' ' * 26}")
-            print(f"\r{Fore.WHITE}[*]{Fore.LIGHTCYAN_EX}Sec left {remaining_time:.2f} Target acquired: " +str(url)+ "")
+            print(f"\r{Fore.BLUE}[*]{Fore.LIGHTCYAN_EX}Sec left {remaining_time:.2f} Target acquired: " +str(url)+ "")
             
         else:
             stdout.flush()
@@ -194,7 +194,7 @@ async def run_stress_test(url: str, duration: int, concurrency: int,
                 stdout.write(f"\r{Fore.BLUE}[*]{Fore.RED} {remaining:6.2f} {Fore.BLUE} Sec left{' ' * 26}")
                 stdout.flush()
                 # Tambahkan gaya progress seperti countdown asli
-                print(f"\r{Fore.WHITE}[*]{Fore.LIGHTCYAN_EX}Sec left {remaining:2f} Target acquired: " +str(url)+ "")
+                print(f"\r{Fore.BLUE}[*]{Fore.LIGHTCYAN_EX}Sec left {remaining:2f} Target acquired: " +str(url)+ "")
                 await asyncio.sleep(0.5)
 
         prog_task = asyncio.create_task(progress())
