@@ -68,8 +68,7 @@ print(f"{Fore.RED}+{Fore.BLUE}
 
     # Versi dan URL
     print(f"{Fore.BLUE}╔{'═' * 70}╗")
-    print(f"{Fore.BLUE}{Style.
-                        BRIGHT}║{Fore.WHITE}  v.2.0{' ' * 63}{Fore.BLUE}║")
+    print(f"{Fore.BLUE}{Style.BRIGHT}║{Fore.WHITE}  v.2.0{' ' * 63}{Fore.BLUE}║")
     print(f"{Fore.BLUE}{Style.BRIGHT}║{Fore.CYAN}  Author By: KunFayz{' ' * 50}{Fore.BLUE}║")
     print(f"{Fore.BLUE}╚{'═'  * 70}╝")
 
